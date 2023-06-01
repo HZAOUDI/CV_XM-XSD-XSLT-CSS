@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE cv SYSTEM "cv.dtd">
+<?xml-stylesheet href="cv.xsl" type="text/xsl" ?>
+<cv xmlns="">
+    <entete>
+        <nom>ZAOUDI</nom>
+        <prenom>HAYA</prenom>
+        <profile>Élève ingénieure en génie informatique</profile>
+        <dateDeNaisssance>01/01/2023</dateDeNaisssance>
+        <nationalite>Marocaine</nationalite>
+        <telephone>+212 xxxxxxxxx</telephone>
+        <mail>hayazaoudi2001@gmail.com</mail>
+        <linkedin>/hayazaoudi-183005232/</linkedin>
+        <github>github.com/HZAOUDI </github>
+        <bio>
+            Curieuse d'apprendre de nouvelles technologies et de trouver des solutions logicielles qui facilitent la vie des utilisateurs.
+            <br/>Je suis toujours prête à relever des nouveaux défis et je suis ouverte à vos propositions d'intégration de votre organisation.      
+        </bio>
+    </entete>
+    
+    <Formations>
+        <diplome>
+            <annee>2019-présent</annee>
+            <intitule>Diplôme d'ingénieur d'état en Informatique: Ecole Nationale des Sciences Appliquées Tétouan</intitule>
+        </diplome>
+        <diplome>
+            <annee>2019</annee>
+            <intitule>Baccalauréat Science Math option B : Lycée Hassan2 </intitule>
+        </diplome>
+    </Formations>
+    
+    <stages>
+        <stage>
+            <date>15/08/2022 - 16/09/2022</date>
+            <titre>Stage d'initialisation : La sous-direction régional au cour d’appel Tétouan </titre>
+            <description>Missions : • Création d'une application web pour gérer le processus d'appel d'offres afin de réduire le temps d'accès aux données.
+                • Aider à la gestion de stocks informatique et mobilier.</description>
+            <organisation>Images/logo1.png</organisation>
+        </stage>
+        
+        <stage>
+            <date>16/08/2021 - 16/09/2021</date>
+            <titre>Stage d'observation : La direction clientèle d'Amendis- Veolia</titre>
+            <description>
+                Missions : • L'utilisation des outils digitaux qui s’adaptent aux besoins de la clientèle tels que : le progiciel WAT.ERP V3.3- Système d’information géographique SIG - Agence en ligne. 
+                •  •Réalisation des rapports quotidiens à l'aide de la base de données Oracle et Wat.erp pour suivre les objectifs financiers de
+                l'entreprise. 
+            </description>
+            <organisation>Images/logo2.png</organisation>
+        </stage>
+    </stages>
+    
+    <projets>
+        <projet>
+            <date_projet>MAI 2023</date_projet>
+            <titre_projet>CRÉATION DU CV </titre_projet>
+            <description_projet>
+                Ce CV est realisé en utilisant : xml, xslt, dtd, xsd et css. 
+            </description_projet>
+            <lien_projet>https://github.com/HZAOUDI</lien_projet>
+        </projet>
+        
+        <projet>
+            <date_projet>AVRIL 2023</date_projet>
+            <titre_projet>APPLICATION WEB : GESTION DE LOCATION</titre_projet>
+            <description_projet>Conception et développement d'une application web pour la location d'objets entre particuliers. Technologies utilisées:Laravel, Mysql, Ajax.</description_projet>
+            <lien_projet>http://rentapplication.herokuapp.com/</lien_projet>
+        </projet>
+        <projet>
+            <date_projet>DECEMBRE 2022</date_projet>
+            <titre_projet>APPLICATION DESKTOP : GESTION DE SCOLARITE</titre_projet>
+            <description_projet>
+                Conception et développement d'une application desktop pour le service
+                scolarité qui traite les demandes des étudiants et génère automatiquement les documents scolaires. Technologies utilisées : java swing, Mysql.
+            </description_projet>
+            <lien_projet>https://github.com/HZAOUDI/Project_GL</lien_projet>
+        </projet>
+        <projet>
+            <date_projet>MAI 2022</date_projet>
+            <titre_projet>APPLICATION WEB : COMMUNICATION INFLUENCEURS et MARQUES </titre_projet>
+            <description_projet>
+                Développement d'une plateforme de mise en relation des influenceurs et des
+                marque. Technologies utilisées : php/Mysql, javascript, html, css.
+            </description_projet>
+            <lien_projet>https://github.com/HZAOUDI/Myfirst_project</lien_projet>
+        </projet> 
+    </projets>
+    
+    <certificates>
+        <certificate>
+            <date_certificate>MAI 2023</date_certificate>
+            <titre_certificate>IBM : Artificial Intelligence Analyse Certificate.</titre_certificate>
+            <lien_certificate>https://www.hackerrank.com/certificates/65cd8c841937</lien_certificate>
+        </certificate>
+        <certificate>
+            <date_certificate>Fevr 2023</date_certificate>
+            <titre_certificate>Coursera Scrum Master certification .</titre_certificate>
+            <lien_certificate>https://www.hackerrank.com/certificates/9225bf6dc87e</lien_certificate>
+        </certificate>
+    </certificates>
+    
+    <competences>
+        <competence>
+            <titre_competence>Développement web :</titre_competence>
+            <description_competence>Laravel, php7, javascript, Ajax, JQuery</description_competence>
+        </competence>
+        <competence>
+            <titre_competence>Base de données :</titre_competence>
+            <description_competence>Oracle, SQL, Mysql, MongoDB, PLSQL</description_competence>
+        </competence>
+        <competence>
+            <titre_competence>Langages de programmation :</titre_competence>
+            <description_competence>JAVA , C, Matlab, Maple</description_competence>
+        </competence>
+    </competences>
+    
+    <langues>
+        <langue>
+            <intitule_langue>Français:</intitule_langue>
+            <niveau>B2 : TCF TP </niveau>
+        </langue>
+        <langue>
+            <intitule_langue>Anglais:</intitule_langue>
+            <niveau>B2</niveau>
+        </langue>
+        <langue>
+            <intitule_langue>Espagnol:</intitule_langue>
+            <niveau>A2</niveau>
+        </langue>
+        <langue>
+            <intitule_langue>Arabe:</intitule_langue>
+            <niveau>Maternelle</niveau>
+        </langue>
+    </langues>
+    
+    <loisirs>
+        <loisir> • Activités nautiques : Membre au Royal Club Yatch de M'diq</loisir>
+        <loisir> • Kayak et voile </loisir>
+        <loisir> • Cyclisme </loisir>
+    </loisirs>
+</cv>

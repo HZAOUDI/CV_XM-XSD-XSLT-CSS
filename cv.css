@@ -1,0 +1,253 @@
+@media all {
+    .page-break {
+        display: none;
+    }
+}
+@media print {
+    .page-break {
+        display: block;
+        page-break-before: always;
+    }
+
+    #hobbiesandinterests h2 {
+        padding-top: 1cm;
+    }
+
+    #references h2 {
+        padding-top: 1cm;
+    }
+}
+@page {
+    margin: 0mm;  
+}
+@font-face {
+    font-family: "ArchitectsDaughter";
+    src: url("Fonts/ArchitectsDaughter-Regular.ttf");
+}
+@font-face {
+    font-family: "PermanentMarker";
+    src: url("Fonts/PermanentMarker-Regular.ttf");
+}
+@font-face {
+    font-family: "LatoBlack";
+    src: url("Fonts/Lato-Black.ttf");
+}
+@font-face {
+    font-family: "LatoBold";
+    src: url("Fonts/Lato-Bold.ttf");
+}
+@font-face {
+    font-family: "LatoRegular";
+    src: url("Fonts/Lato-Regular.ttf");
+}
+@font-face {
+    font-family: "LatoLight";
+    src: url("Fonts/Lato-Light.ttf");
+}
+@font-face {
+    font-family: "LatoThin";
+    src: url("Fonts/Lato-Thin.ttf");
+}
+
+@font-face {
+    font-family: "Montserrat-Regular";
+    src: url("Fonts/Montserrat-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Montserrat-Thin-250";
+    src: url("Fonts/Montserrat-Thin-250.ttf");
+}
+
+@font-face {
+    font-family: "Montserrat-Bold";
+    src: url("Fonts/Montserrat-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Montserrat-Medium-500";
+    src: url("Fonts/Montserrat-Medium-500.ttf");
+}
+
+:root{
+    --Background: #2a2a2e;
+    --Background-LeftColumn: #323B4C;
+    --Background-RightColumn: #FFFFFF;
+    --text-LeftColumn: #FFFFFF;
+    --text-RightColumn: #323B4C;
+    --text-Name: #323B4C;
+    --text-Profile: #323B4C;
+    --text-GategoryName: #333234;
+    --text-TimeScale: #323B4C;
+    --text-EntryDescription: #323B4C;
+}
+/*</editor-fold>*/
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a{
+    color: var(--text-Name);
+}
+body {
+    background-color: var(--Background);
+}
+
+.CV {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 1px black solid;
+    width: 1100px;
+    height:1500px;
+}
+.CV:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*<editor-fold desc="Left Column">*/
+.LeftColumn {
+    float: left;
+    width: 33%;
+    padding: 20px;
+    text-align: left;
+    background-color: var(--Background-LeftColumn);
+    color: var(--text-LeftColumn);
+    height: 1600px;
+}
+#Div_MyImage img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+#Div_Bio p {
+    text-align: justify;
+    margin: 10px;
+}
+#Div_Info {
+    margin: 10px 0 0 30px;
+}
+
+.H3_EntrySubject_Left {
+    margin: 5px 0 0 15px;
+    font-size: 18px;
+    color: var(--Background-RightColumn);
+}
+.Div_EntryContentDescription_Left {
+    font-family: Montserrat-Thin-250, serif;
+    color: var(--Background-RightColumn);
+    margin: 5px 5px 10px;
+    text-align: center;
+}
+.H3_EntrySubject_Language {
+    float: left;
+    width: 14%;
+    margin: 0 0 0 15px;
+    font-size: 18px;
+    color: var(--Background-RightColumn);
+}
+.Div_EntryContentDescription_Language p{
+    font-family: Montserrat-Thin-250, serif;
+    color: var(--Background-RightColumn);
+    margin: 5px 5px 10px 40%;
+    text-align: left;
+}
+.Div_EntryContentDescription_Hobbits {
+    font-family:  Montserrat-Thin-250, serif;
+    color: var(--Background-RightColumn);
+    margin: 5px 0 0 15px;
+    text-align: left;
+}
+
+/*</editor-fold>*/
+/*<editor-fold desc="Right Column">*/
+.RightColumn {
+    background-color: var(--Background-RightColumn);
+    color: var(--text-RightColumn);
+    float: left;
+    width: 67%;
+    padding: 20px;
+    text-align: left;
+    height: 1600px;
+}
+
+/*<editor-fold desc="Name & Profile">*/
+#Div_Me h1{
+    font-family: Lato-Bold;
+    line-height: 100px;
+    font-size: 90px;
+    font-weight: lighter;
+    margin-top: 0;
+    text-transform: uppercase;
+    color: var(--text-Name);
+    white-space: nowrap;    
+}
+
+#Div_Me h3{
+    font-family: Lato-Bold;
+    line-height: 40px;
+    font-size: 30px;
+    margin-top: 0;
+    color: var(--text-Profile);
+}
+/*</editor-fold>*/
+/*<editor-fold desc="Entries">*/
+#Div_Content {
+    text-align: left;
+    margin-top: 20px;
+    font-family: Montserrat-Medium-500, serif;
+    color: black;
+}
+
+#Div_Content_Left {
+    text-align: left;
+    margin-top: 20px;
+    font-family: Montserrat-Thin-250, serif;
+}
+
+#Div_Bio p {
+    text-align: left;
+    margin-top: 20px;
+    font-family: Montserrat-Thin-250, serif;
+}
+
+#Div_Content h2, #Div_Content_Left h2{
+    font-family:  Montserrat-Thin-250, serif;
+    font-size: 30px;
+    text-align: left;
+    text-transform: uppercase;
+    margin-top: 25px;
+    margin-bottom: 10PX;
+    color: var(--text-GategoryName);
+}
+
+.Div_Entry {
+    margin: 15px 15px 15px 0;
+}
+.Label_TimeScale{
+    color: var(--text-TimeScale);
+    text-align: center;
+    float: left;
+    width: 14%;
+    margin: 0 0 0 15px;
+}
+.H3_EntrySubject {
+    margin-left: 20%;
+    font-size: 18px;
+    color: var(--text-Name);
+}
+.Div_EntryContentDescription {
+    color: var(--text-EntryDescription);
+    margin-top: 5px;
+    margin-left: 24%;
+}
+.Div_EducationEntryContentDescription {
+    color: var(--text-Name);
+    margin-top: 5px;
+    margin-left: 20% ;
+}
+/*</editor-fold>*/
+/*</editor-fold>*/
