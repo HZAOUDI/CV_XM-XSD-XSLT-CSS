@@ -2,7 +2,7 @@
 Ce projet consiste à créer un Curriculum Vitae (CV) en utilisant des technologies XML telles que XML, XSD, DTD et XSLT. 
 Le CV sera ensuite généré au format HTML en appliquant des styles CSS.
 
-# 👋 Structure du projet
+# Structure du projet
 Le projet est organisé selon la structure suivante :
 **cv.xml** : Fichier XML contenant les données du CV.
 
