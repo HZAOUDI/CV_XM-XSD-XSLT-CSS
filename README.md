@@ -40,4 +40,4 @@ Veillez à ce que les fichiers XML, XSD, DTD, XSLT et CSS soient correctement r�
 🚀 N'hésitez pas à personnaliser le contenu du CV en modifiant le fichier XML, et à ajuster les styles en modifiant le fichier CSS. 
 
 Ce projet fournit une base solide pour créer et générer un CV personnalisé en utilisant XML et XSLT, offrant une séparation claire entre les données et la présentation.
-![CVResultant](https://github.com/HZAOUDI/CV_XM-XSD-XSLT-CSS/assets/125825033/8dbe6c97-b168-4040-baa7-c5268c899eed)
+
